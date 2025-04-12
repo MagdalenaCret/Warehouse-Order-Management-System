@@ -81,20 +81,7 @@ They are **immutable** objects using Java `record`, and **cannot be updated or d
 
 ## 📁 Project Structure
 
-📦 Project Root 
-┣ 📁 connection 
-# DB connection (ConnectionFactory) 
-┣ 📁 controller
-# Logic between UI and business 
-┣ 📁 dao 
-# Data Access Objects (ClientDAO, ProductDAO, OrderDAO, BillDAO) 
-┣ 📁 model 
-# Model classes (Client, Product, WarehouseOrder, Bill) 
-┣ 📁 gui # Java Swing UI 
-┃ ┗ 📁 util # Custom buttons & tables 
-┣ 📁 validate # Input validation (Validator) 
-┣ 📁 view # Views (OrderView, AllClientsView, etc.) 
-┗ 📄 javadoc # Auto-generated documentation
+<pre><code>📦 <strong>Project Root</strong> ┣ 📁 <strong>connection</strong> — DB connection (<code>ConnectionFactory</code>) ┣ 📁 <strong>controller</strong> — Logic between UI and business ┣ 📁 <strong>dao</strong> — Data Access Objects (<code>ClientDAO</code>, <code>ProductDAO</code>, <code>OrderDAO</code>, <code>BillDAO</code>) ┣ 📁 <strong>model</strong> — Model classes (<code>Client</code>, <code>Product</code>, <code>WarehouseOrder</code>, <code>Bill</code>) ┣ 📁 <strong>gui</strong> — Java Swing UI ┃ ┗ 📁 <strong>util</strong> — Custom buttons & tables ┣ 📁 <strong>validate</strong> — Input validation (<code>Validator</code>) ┣ 📁 <strong>view</strong> — Views (<code>OrderView</code>, <code>AllClientsView</code>, etc.) ┗ 📄 <strong>javadoc</strong> — Auto-generated documentation </code></pre>
 
 
 ---
