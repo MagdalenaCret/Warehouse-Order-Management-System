@@ -63,11 +63,11 @@ Validation errors and feedback are shown via dialogs.
 <div align="center">
   <p float="left">
     <img src="images/image1.jpg" width="400" alt="Image Screenshot 1"/>
-    <img src="images/image2.png" width="400" alt="Image Screenshot 2"/>
+    <img src="images/image2.jpg" width="400" alt="Image Screenshot 2"/>
   </p>
   <p float="left">
-    <img src="images/image3.png" width="400" alt="Image Screenshot 3"/>
-    <img src="images/image4.png" width="400" alt="Image Screenshot 4"/>
+    <img src="images/image3.jpg" width="400" alt="Image Screenshot 3"/>
+    <img src="images/image4.jpg" width="400" alt="Image Screenshot 4"/>
   </p>
 </div>
 
