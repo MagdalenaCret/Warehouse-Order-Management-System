@@ -81,7 +81,20 @@ They are **immutable** objects using Java `record`, and **cannot be updated or d
 
 ## 📁 Project Structure
 
-📦 Project Root ┣ 📁 connection # DB connection (ConnectionFactory) ┣ 📁 controller # Logic between UI and business ┣ 📁 dao # Data Access Objects (ClientDAO, ProductDAO, OrderDAO, BillDAO) ┣ 📁 model # Model classes (Client, Product, WarehouseOrder, Bill) ┣ 📁 gui # Java Swing UI ┃ ┗ 📁 util # Custom buttons & tables ┣ 📁 validate # Input validation (Validator) ┣ 📁 view # Views (OrderView, AllClientsView, etc.) ┗ 📄 javadoc # Auto-generated documentation
+📦 Project Root 
+┣ 📁 connection 
+# DB connection (ConnectionFactory) 
+┣ 📁 controller
+# Logic between UI and business 
+┣ 📁 dao 
+# Data Access Objects (ClientDAO, ProductDAO, OrderDAO, BillDAO) 
+┣ 📁 model 
+# Model classes (Client, Product, WarehouseOrder, Bill) 
+┣ 📁 gui # Java Swing UI 
+┃ ┗ 📁 util # Custom buttons & tables 
+┣ 📁 validate # Input validation (Validator) 
+┣ 📁 view # Views (OrderView, AllClientsView, etc.) 
+┗ 📄 javadoc # Auto-generated documentation
 
 
 ---
