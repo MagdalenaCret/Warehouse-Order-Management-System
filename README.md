@@ -59,6 +59,7 @@ This application is a **Java-based desktop app** designed to manage customer ord
 > Built with **Java Swing** — modular panels for each major feature (clients, products, orders).  
 Validation errors and feedback are shown via dialogs.
 
+
 <div align="center">
   <p float="left">
     <img src="images/image1.jpg" width="400" alt="Image Screenshot 1"/>
@@ -69,7 +70,7 @@ Validation errors and feedback are shown via dialogs.
     <img src="images/image4.png" width="400" alt="Image Screenshot 4"/>
   </p>
 </div>
----
+
 
 ## 🧾 Invoice Management
 
